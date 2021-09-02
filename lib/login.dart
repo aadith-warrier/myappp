@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:myappp/home.dart';
 
 
 class Login extends StatefulWidget {
@@ -77,7 +79,11 @@ class _LoginState extends State<Login> {
                               ),
                               ),
                             ),
-                            onPressed: null,
+                            onPressed: () { Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => home()
+                             )
+                            );
+                            },
                             child: Text("     Login     ",
                               style: TextStyle(
                                 color: Colors.white,
@@ -95,7 +101,7 @@ class _LoginState extends State<Login> {
                     padding:EdgeInsets.fromLTRB(00, 8, 00, 00),
                     child:RichText(
                       text: TextSpan(text: "Not Registered? Register here.",
-                      ),
+                          ),
 
                     ),
                   ),
