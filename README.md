@@ -2,6 +2,7 @@
 
 A new Flutter project.
 This is my first Flutter App.
+In collaboration with Aditya Bhaskar.
 
 ## Getting Started
 
