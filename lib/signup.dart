@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:myappp/signup.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -23,7 +24,7 @@ class _SignupState extends State<Signup> {
           children: [ Column(
             children: [
               Container(
-                padding: EdgeInsets.fromLTRB(105, 10, 105,20),
+                padding: EdgeInsets.fromLTRB(105, 40, 105,40),
                 child: Text("Sign Up.",
                   style: TextStyle(
                     fontWeight: FontWeight.w600,
@@ -43,7 +44,7 @@ class _SignupState extends State<Signup> {
                       child: Column(
                         children: [
                           Container(
-                              padding: EdgeInsets.fromLTRB(15, 30, 15, 20),
+                              padding: EdgeInsets.fromLTRB(15, 30, 15, 10),
                               child: TextField(
                                 decoration: InputDecoration(
                                   border: OutlineInputBorder(
@@ -57,7 +58,7 @@ class _SignupState extends State<Signup> {
                               )
                           ),
                           Container(
-                              padding:EdgeInsets.fromLTRB(15, 20, 15, 20),
+                              padding:EdgeInsets.fromLTRB(15, 10, 15, 10),
                               child: TextField(
                                 decoration: InputDecoration(
                                   border: OutlineInputBorder(
@@ -71,7 +72,7 @@ class _SignupState extends State<Signup> {
                               )
                           ),
                           Container(
-                              padding:EdgeInsets.fromLTRB(15, 20, 15, 20),
+                              padding:EdgeInsets.fromLTRB(15, 10, 15, 10),
                               child: TextField(
                                 decoration: InputDecoration(
                                   border: OutlineInputBorder(
@@ -85,7 +86,7 @@ class _SignupState extends State<Signup> {
                               )
                           ),
                           Container(
-                              padding:EdgeInsets.fromLTRB(15, 20, 15, 20),
+                              padding:EdgeInsets.fromLTRB(15, 10, 15, 10),
                               child: TextField(
                                 decoration: InputDecoration(
                                   border: OutlineInputBorder(
@@ -99,7 +100,7 @@ class _SignupState extends State<Signup> {
                               )
                           ),
                           Container(
-                              padding:EdgeInsets.fromLTRB(15, 20, 15, 20),
+                              padding:EdgeInsets.fromLTRB(15, 10, 15, 10),
                               child: TextField(
                                 decoration: InputDecoration(
                                   border: OutlineInputBorder(
@@ -113,7 +114,7 @@ class _SignupState extends State<Signup> {
                               )
                           ),
                           Container(
-                              padding:EdgeInsets.fromLTRB(15, 20, 15, 6),
+                              padding:EdgeInsets.fromLTRB(15, 10, 15, 10),
                               child: TextField(
                                 obscureText: true,
                                 decoration: InputDecoration(
@@ -128,7 +129,7 @@ class _SignupState extends State<Signup> {
                               )
                           ),
                           Container(
-                            padding: EdgeInsets.fromLTRB(40, 20, 40, 20),
+                            padding: EdgeInsets.fromLTRB(40, 10, 40, 10),
                             child: ElevatedButton(
                               style: ButtonStyle(
                                 backgroundColor: MaterialStateProperty.all(Color(0xff8660F0)),

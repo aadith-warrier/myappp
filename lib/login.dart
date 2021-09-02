@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:myappp/home.dart';
+import 'package:myappp/signup.dart';
 
 
 class Login extends StatefulWidget {
@@ -80,7 +81,7 @@ class _LoginState extends State<Login> {
                               ),
                             ),
                             onPressed: () { Navigator.push(context,
-                            MaterialPageRoute(builder: (context) => home()
+                            MaterialPageRoute(builder: (context) => Home()
                              )
                             );
                             },
@@ -101,6 +102,11 @@ class _LoginState extends State<Login> {
                     padding:EdgeInsets.fromLTRB(00, 8, 00, 00),
                     child:RichText(
                       text: TextSpan(text: "Not Registered? Register here.",
+                        recognizer: new TapGestureRecognizer()
+                          ..onTap = () { Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Signup()
+                            ));
+                          },
                           ),
 
                     ),
