@@ -1,6 +1,7 @@
 # myappp
 
 A new Flutter project.
+This is my first Flutter App.
 
 ## Getting Started
 
